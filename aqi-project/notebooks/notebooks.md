@@ -21,5 +21,16 @@
 Classical Machine Learning models (like Logistic Regression or Linear Regression) get "confused" by high VIF.
 13. Explain block "Check how pollutants change across AQI categories"
 
-        Karthik Do Entries as required here, for better follow up.
-14. 
+
+
+14. Full Feature Correlation Heatmap shows that PM2.5 and PM10 have extremely strong correlations with AQI (its primary driver of air quality)
+
+16. Distribution shows severe imbalance with "Poor" category being underrepresented. this can lead to model bias and requires class merging and removal of minority.
+
+17. The City-wise AQI Category Distribution shows identical proportions across all cities, indicating that geographical location alone is not a strong factor.
+
+18. The City-wise Normalised AQI category heatmap shows nearly identical distributions across all cities, indicating minimal geographical variation in AQI Categories. This suggests that city is not a discriminative feature and pollution concentrations are more significant.
+
+19. City-wise Correlation heatmap revealed consistent relationships across all locations with PM2.5 and PM10 having strong corelation with AQI while other Pollutants showing negligible influence. Thus, pollutant behaviour is uniform across cities making it weak for feature predication
+
+     Do Entries as required here, for better follow up.
