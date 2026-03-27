@@ -23,14 +23,22 @@ Classical Machine Learning models (like Logistic Regression or Linear Regression
 
 
 
-14. Full Feature Correlation Heatmap shows that PM2.5 and PM10 have extremely strong correlations with AQI (its primary driver of air quality)
+18. Full Feature Correlation Heatmap shows that PM2.5 and PM10 have extremely strong correlations with AQI (its primary driver of air quality)
 
-16. Distribution shows severe imbalance with "Poor" category being underrepresented. this can lead to model bias and requires class merging and removal of minority.
+20. Distribution shows severe imbalance with "Poor" category being underrepresented. this can lead to model bias and requires class merging and removal of minority.
 
-17. The City-wise AQI Category Distribution shows identical proportions across all cities, indicating that geographical location alone is not a strong factor.
+21. The City-wise AQI Category Distribution shows identical proportions across all cities, indicating that geographical location alone is not a strong factor.
 
-18. The City-wise Normalised AQI category heatmap shows nearly identical distributions across all cities, indicating minimal geographical variation in AQI Categories. This suggests that city is not a discriminative feature and pollution concentrations are more significant.
+22. The City-wise Normalised AQI category heatmap shows nearly identical distributions across all cities, indicating minimal geographical variation in AQI Categories. This suggests that city is not a discriminative feature and pollution concentrations are more significant.
 
-19. City-wise Correlation heatmap revealed consistent relationships across all locations with PM2.5 and PM10 having strong corelation with AQI while other Pollutants showing negligible influence. Thus, pollutant behaviour is uniform across cities making it weak for feature predication
+23. City-wise Correlation heatmap revealed consistent relationships across all locations with PM2.5 and PM10 having strong corelation with AQI while other Pollutants showing negligible influence. Thus, pollutant behaviour is uniform across cities making it weak for feature predication
+
+24/25/26. Made a new column seasons and categorized the data as per the dates mentioned for the corresponding seasons.
+
+27. AQI distribution is almost similar across seasons in this dataset, with minor differences and occasional high pollution events.
+
+28. AQI distribution is broadly stable across seasons, with mild increase in higher AQI during winter and post monsoon.
+
+29. AQI levels remian consistent across seasons, but post monsoon and winter show higher variability and more extreme pollution events, while monsoon is relatively stable with fewer high AQI days.
 
      Do Entries as required here, for better follow up.
