@@ -157,7 +157,7 @@ The **Support Vector Machine (SVM)** was selected as the final model because:
 
 ---
 
-### 👤 Karthik
+### 👤 Karthik Baurai
 
 * Performed **Exploratory Data Analysis (EDA)**
 * Conducted:
@@ -170,7 +170,7 @@ The **Support Vector Machine (SVM)** was selected as the final model because:
 
 ---
 
-### 👤 Misbah
+### 👤 Misbah Ul Islam
 
 * Developed **Random Forest model**
 * Performed:
@@ -183,7 +183,7 @@ The **Support Vector Machine (SVM)** was selected as the final model because:
 
 ---
 
-### 👤 Mukund
+### 👤 Mukund Prasad
 
 * Added and documented **AQI dataset (2015–2023)** 
 * Performed **non-graphical EDA** including:
