@@ -9,7 +9,7 @@ The objective was to build **accurate, robust, and interpretable models**, while
 ---
 
 ## 📊 Dataset
-
+Source: https://www.kaggle.com/datasets/tushardobal/india-city-air-quality-index-dataset-20152023
 The dataset consists of air pollution measurements collected across multiple Indian cities (2015–2023), including:
 
 ### 🔹 Features
@@ -18,7 +18,7 @@ The dataset consists of air pollution measurements collected across multiple Ind
 * **Contextual:** City, Season (engineered from date)
 
 ### 🔹 Target
-
+* These target features were engineered to perform the seasonal analysis
 * AQI Category (Good, Satisfactory, Moderate, Poor, etc.)
 
 ### 🔹 Preprocessing Steps
@@ -141,6 +141,7 @@ The **Support Vector Machine (SVM)** was selected as the final model because:
 ├── data/              # Dataset and documentation
 ├── notebooks/         # EDA, experiments, visualization
 ├── src/               # Model implementations
+├── report/            # documentation of the project
 └── README.md
 ```
 
@@ -206,4 +207,4 @@ This project demonstrates how machine learning can be effectively applied to env
 
 ## ⭐ Acknowledgment
 
-This project was developed as part of a **machine learning mini-project**, focusing on real-world data analysis, model robustness, and evaluation best practices.
+This project was developed as part of a **machine learning project**, focusing on real-world data analysis, model robustness, and evaluation best practices.
